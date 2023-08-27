@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="assets/imagenes/icono.jpg" type="image/png">
     <link rel="stylesheet" href="assets/css/archivo.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <script src="https://kit.fontawesome.com/6786425b39.js" crossorigin="anonymous"></script>
 </head> 
 <body>
    <header>
@@ -22,8 +22,8 @@
         <img src="assets/imagenes/c++ - copia.jpg" alt="">
     </section>
      
-    <nav class="menu">
-       <ul>
+    <nav class="menu container-fluid  text-break fs-4 mt-4">
+       <ul >
         <li> <a href="index.html"> Inicio </a></li>
         <li> <a href="html/python.html"> Phyton </a></li>
         <li> <a href="html/java.html"> Java </a></li>
@@ -36,9 +36,10 @@
     
     <main>
      
-    <div class="container-sm container-sm border border-ligh border-2 rounded text-white text-break fs-4 mt-4">
-    <p class="p1">
+    <div class="contenedor1 container-sm  text-white text-break fs-4 mt-4">
+    <p class="p1 fw-normal">
         <h2 class="LP">que es un lenguaje de programacion?</h2>
+
         Un lenguaje de programación es un lenguaje formal 
         (o artificial, es decir, un lenguaje con reglas gramaticales bien 
         definidas) que proporciona a una persona, en este caso el programador,
@@ -52,9 +53,9 @@
     </p>
     </div>
     
-    <div class="container-sm border border-ligh border-2 rounded text-white text-break fs-4 mt-4 esco1" >
+    <div class="contenedor2 container-sm text-white text-break fs-4 mt-4 " >
          <h2 class="LP2023">5 lenguajes de programación más usados en 2023 </h2>
-         <p class="p2">El sector IT está en constante evolución y crecimiento, 
+         <p class="p2 fw-normal" >El sector IT está en constante evolución y crecimiento, 
             y así como en el año pasado nos interesaban los lenguajes de programacion 
              mas utilizados 2022, ahora nos interesan los de la nueva vanguardia,
              el 2023, una buena muestra de ello es la continua aparición de nuevos 
@@ -65,26 +66,53 @@
              Hay numerosas distinciones entre unos rankings y otros sobre los mejores 
              lenguajes de programación, pero es cierto que hay varios que se repiten de forma constante y son los siguientes: <br>
             
-            <a href="html/python.html">
-                Python.</a> <br>
-            <a href="html/java.html">
-                Java.</a> <br>
-             <a href="html/c.html">
-                C.</a>  <br>
-             <a href="html/c++.html">
-                C++.</a>  <br>
-             <a href="html/javaScript.html">
-                JavaScript.</a>  <br>
-            </p>
+           <li class="lista">  
+            <a href="html/python.html" class="text-decoration-none">
+                Python.</a> 
+            <a href="html/java.html" class="text-decoration-none">
+                Java.</a> 
+             <a href="html/c.html" class="text-decoration-none">
+                C.</a>  
+             <a href="html/c++.html" class="text-decoration-none">
+                C++.</a>  
+             <a href="html/javaScript.html" class="text-decoration-none">
+                JavaScript.</a>  
+            </li>     
+            
         </div>    
         </main>
 
-    <footer>   
-         <ul class="rrss">
-            <li> <a href=""> facebook </a></li>
-        <li> <a href=""> instagram </a></li>
-        <li> <a href=""> linkedin </a></li>
-         </ul>
-    </footer> 
+    <footer class="piePagina">
+        <div class="grupo1">
+          <div class="box">
+            <figure>
+                
+                    <img src="assets/imagenes/icono.jpg" alt="logo sobre programacion">
+               
+            </figure>
+          </div>  
+          <div class="box">
+            <h2>SOBRE NOSOTRROS</h2>
+             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, dolore.
+             </p>
+             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, dolore.
+            </p>
+          </div>
+          <div class="box">
+            <h2>SIGUENOS</h2>
+            <div class="redSocial"></div>
+              <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+              <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+              <a href="https://twitter.com/" class="fa fa-twitter"></a>
+              <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+          </div>
+        </div>
+        <div class="grupo2">
+            <small>&copy;2023 <b>Sobre programacion </b> - todos los derechos reservados</small>
+        </div>
+    </footer>
+    
+
 </body>
+
 </html>
