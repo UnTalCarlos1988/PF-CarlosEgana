@@ -126,10 +126,23 @@ body .contenedor1 {
   border-radius: 5px;
   box-shadow: 0 10px 20px 5px rgb(0, 0, 0);
 }
+body .contenedor1 img {
+  width: 15%;
+  height: 15%;
+  filter: drop-shadow(5px 5px 10px black);
+  float: right;
+  margin: 10px;
+  margin-left: 30px;
+}
+@media screen and (max-width: 768px) {
+  body .contenedor1 img {
+    width: 30%;
+    max-width: 30%;
+  }
+}
 body .contenedor2 {
   padding: 20px;
   text-align: justify;
-  background-color: white;
   width: 90%;
   height: auto;
   display: block;
